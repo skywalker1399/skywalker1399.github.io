@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Banking Project2", "Banking Project2\Banking Project2.vcxproj", "{EEC3C308-25E0-4183-8E81-EF250A1D8D75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEC3C308-25E0-4183-8E81-EF250A1D8D75}.Debug|x64.ActiveCfg = Debug|x64
+		{EEC3C308-25E0-4183-8E81-EF250A1D8D75}.Debug|x64.Build.0 = Debug|x64
+		{EEC3C308-25E0-4183-8E81-EF250A1D8D75}.Debug|x86.ActiveCfg = Debug|Win32
+		{EEC3C308-25E0-4183-8E81-EF250A1D8D75}.Debug|x86.Build.0 = Debug|Win32
+		{EEC3C308-25E0-4183-8E81-EF250A1D8D75}.Release|x64.ActiveCfg = Release|x64
+		{EEC3C308-25E0-4183-8E81-EF250A1D8D75}.Release|x64.Build.0 = Release|x64
+		{EEC3C308-25E0-4183-8E81-EF250A1D8D75}.Release|x86.ActiveCfg = Release|Win32
+		{EEC3C308-25E0-4183-8E81-EF250A1D8D75}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B7419EA-3A57-4649-B5B9-447723D3C50C}
+	EndGlobalSection
+EndGlobal
