@@ -27,4 +27,4 @@ prerequisites.
 
 ### Source Code
 
-[View Course Planner Source Code](https://github.com/skywalker1399/skywalker1399.github.io/tree/main/Enhancement1_Investment_Clculator)
+[View Course Planner Source Code](https://github.com/skywalker1399/skywalker1399.github.io/tree/main/Enhancement2_Course_Planner)
