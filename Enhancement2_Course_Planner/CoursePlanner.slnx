@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="CS 300 ABCU_Advising_Program_Input.csv" />
+  </Folder>
+  <Project Path="CoursePlanner/CoursePlanner.vcxproj" Id="e6730e4a-232b-4b5e-a8ef-c3114468d884" />
+</Solution>
