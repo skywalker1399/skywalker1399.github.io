@@ -15,3 +15,16 @@ automated testing.
 ### Source Code
 
 [View Investment Calculator Source Code](https://github.com/skywalker1399/skywalker1399.github.io/tree/main/Enhancement1_Investment_Clculator)
+
+## Enhancement Two: Algorithms and Data Structures
+
+### Course Planner
+
+This Project Demonstrates my enhancement of a course planner project 
+originally developed in C++. The enhanced version includes hashtables,
+input validation, data management, and topological sorting based on 
+prerequisites.
+
+### Source Code
+
+[View Course Planner Source Code](https://github.com/skywalker1399/skywalker1399.github.io/tree/main/Enhancement1_Investment_Clculator)
