@@ -49,3 +49,91 @@ h3 { font-size:1.35rem; line-height:1.3; }
 @media(max-width:800px) { .project-grid { grid-template-columns:1fr; } .project-card { min-height:0; } .review-panel { align-items:flex-start; flex-direction:column; } }
 @media(max-width:600px) { .nav { align-items:flex-start; flex-direction:column; padding-block:15px; gap:10px; } .nav-links { flex-wrap:wrap; gap:10px 17px; font-size:.82rem; } .hero { padding-block:75px; } .section { padding-block:45px; } .review-panel { padding:25px; } .footer-inner { flex-wrap:wrap; } }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .project-card { transition:none; } }
+
+
+/* Professional Self-Assessment */
+
+.assessment-details {
+  margin-top: 28px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.assessment-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 27px;
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1rem;
+  list-style: none;
+  transition: background 0.2s ease;
+}
+
+.assessment-details summary:hover {
+  background: var(--surface-hover);
+}
+
+.assessment-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.assessment-details summary:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: -3px;
+}
+
+.assessment-icon {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.assessment-details[open] .assessment-icon {
+  transform: rotate(45deg);
+}
+
+.assessment-content {
+  padding: 25px 30px 35px;
+  border-top: 1px solid var(--line);
+  line-height: 1.85;
+}
+
+.assessment-content p {
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+
+.assessment-content h3 {
+  color: var(--text);
+  font-size: 1.3rem;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.assessment-content h3:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .assessment-details summary {
+    padding: 18px 20px;
+  }
+
+  .assessment-content {
+    padding: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .assessment-details summary,
+  .assessment-icon {
+    transition: none;
+  }
+}
